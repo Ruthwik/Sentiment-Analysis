@@ -57,14 +57,12 @@ System.out.println("Sentiment Score: " + RNNCoreAnnotations.getPredictedClass(tr
 
 ### How to find 5 classes of sentiment classification: very negative, negative, neutral, positive, and very positive.
 ```Java
-// this is the parse tree of the current sentence
-Tree tree = sentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
-
-//print the sentiment score using RNNCoreAnnotations
-SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
+// this matrix contains the confidences
+SimpleMatrix sm = RNNCoreAnnotations.getPredictedClass(tree);
 ```
 The estimated probability/confidence looks something like this from 'sm' object
-``Java
+
+```
 Type = dense , numRows = 5 , numCols = 1
  0.111  
  0.758  
@@ -76,7 +74,7 @@ Type = dense , numRows = 5 , numCols = 1
 ### Output
 
 This project has the following output
-```Java
+```
 Sentiment Score: 1.0%
 Sentiment Type: Negative%
 Very positive: 2.0%
