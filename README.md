@@ -12,6 +12,7 @@ which can be incorporated into applications with human language technology needs
 The underlying technology of this is based on a new type of Recursive Neural Network that builds on top of grammatical structures.
 
 The Java documentation for stanford nlp can be found [here](https://nlp.stanford.edu/nlp/javadoc/javanlp/).
+
 The [live](http://nlp.stanford.edu:8080/sentiment/rntnDemo.html) Demo of Stanfod sentiment analysis.
 
 
@@ -19,7 +20,7 @@ The [live](http://nlp.stanford.edu:8080/sentiment/rntnDemo.html) Demo of Stanfod
 
 1. Download the project and import into Eclipse
 
-2. set the build path which must have the following libraries 
+2. Set the build path which must have the following libraries 
 
  * stanford-corenlp-3.8.0
  * ejml-0.23
@@ -33,7 +34,7 @@ Download the jar file from Stanford NLP site
 
 All the dependencies can be downloaded from Stanford NLP [site](https://stanfordnlp.github.io/CoreNLP/) .
 
-# Code Explained
+## Code Explained
 ### Initialize
 
 ```Java

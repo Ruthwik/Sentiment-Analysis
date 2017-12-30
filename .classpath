@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="lib/ejml-0.23.jar"/>
 	<classpathentry kind="lib" path="lib/stanford-corenlp-3.8.0.jar"/>
+	<classpathentry kind="lib" path="F:/ML AI/stanford-corenlp-3.8.0-models.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
